@@ -5,6 +5,10 @@
 3. git commit -m "提交说明"   把当前在git管理中的文件提交到本地库中，提交说明一定要写。
 4. git remote add origin "url"  当前文件夹联结到仓库，ulr 为你要联结的仓库地址。
 5. git push -u origin master  把工程上传到git,会弹出输入框输入用户名和密码
+6. git commit -a 把当前所有的文件添加到git管理并且提交
+7. git rm 删除文件（从git版本库中移除）
+8. git -f 删除文件（强制删除，不能被git恢复）
+9. git mv old_name new_name 移动文件
 
 ## 二.从git仓库下载工程到本地
 1. git clone "url" 把仓库里面的工程克隆到当天文件夹
@@ -30,6 +34,17 @@
 1. git status 查看当前文件的状态
 2. git add README.md 暂存已修改的文件
 3. git status -s 状态简览
+
 ## 六. cat .gitignore 忽略不必要的文件提交
-1. 
+1. http://github.com/github/gitignore 查看已经配置好的忽略项
+2. 把.gitignore 文件放在需要过滤的文件夹内，该文件夹下的所有文件都在过滤的目标范围内
+
+## 七. git diff 查看已暂存和未暂存的修改
+1. git diff --cached 查看已经暂存起来的变化
+
+## 八. git commit --amend 撤销操作
+1. 提交命令尝试重新提交
+2. 将暂存区中的文件提交，提交过了不提交，没有提交或者修改过的会提交
+
+## 九. 
 
