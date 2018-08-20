@@ -11,7 +11,7 @@
 2. git clone "url" <本地目录名>
 3. git checkout "0.1" 把当前工程切换到0.1这个版本
 
-## 三. Git branch
+## 三.分支 Git branch
 1. git branch  列出本地已经存在的分支，并且在当前分支的前面用"*"标记
 2. git branch -a 查看当前的所有分支
 3. git branch -r 查看远程本库分支列表
@@ -26,4 +26,10 @@
 3. git checkout master 将分支切换到master
 4. git checkout -b master 如果分支存在则只切换分支，若不存在则创建并切换到master分支
 
-## 五. 
+## 五. 状态 git status
+1. git status 查看当前文件的状态
+2. git add README.md 暂存已修改的文件
+3. git status -s 状态简览
+## 六. cat .gitignore 忽略不必要的文件提交
+1. 
+
